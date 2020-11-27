@@ -5,3 +5,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+html {
+  font-size: 62.5%;
+  --primaryColor: #6ee7b7;
+  --navColor: #111827;
+  --linkColor: #f50057;
+  --headerOne: calc(2rem + 1vw);
+  --headerTwo: calc(1.5rem + 1vw);
+  --headerThree: calc(1rem + 1vw);
+}
+
+body {
+  margin: auto;
+  width: 60%;
+  font-family: "Oswald", sans-serif;
+  font-family: "Rubik", sans-serif;
+}
