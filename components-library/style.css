@@ -10,14 +10,44 @@ html {
   --primaryColor: #6ee7b7;
   --navColor: #111827;
   --linkColor: #f50057;
-  --headerOne: calc(2rem + 1vw);
-  --headerTwo: calc(1.5rem + 1vw);
+  --headerOne: calc(2.2rem + 1vw);
+  --headerTwo: calc(1.3rem + 1vw);
   --headerThree: calc(1rem + 1vw);
 }
 
 body {
-  margin: auto;
-  width: 60%;
-  font-family: "Oswald", sans-serif;
+  background-color: black;
+  color: white;
   font-family: "Rubik", sans-serif;
+  font-size: 1.5rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-size: var(--headerOne);
+  margin: 0.5rem 0;
+}
+h2 {
+  font-size: var(--headerTwo);
+}
+h3 {
+  font-size: var(--headerThree);
+}
+
+strong {
+  font-size: 2rem;
+}
+p {
+  margin: 0.3rem;
+}
+.container {
+  padding: 0 1.5rem;
+}
+
+.center-container {
+  margin: auto;
+  width: 70%;
+  text-align: center;
 }
