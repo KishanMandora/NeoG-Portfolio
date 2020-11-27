@@ -77,3 +77,15 @@ p {
   display: inline;
   padding: 0 1.5rem;
 }
+nav {
+  background-color: var(--navColor);
+}
+nav > ul {
+  list-style-type: none;
+  text-align: right;
+}
+nav > ul > li {
+  display: inline;
+  padding: 2rem;
+  margin: 1.5rem;
+}
