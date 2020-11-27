@@ -96,18 +96,25 @@ nav > ul > li {
   height: 100%;
   width: 100%;
 } */
+.hero {
+  margin: 1.5rem 0;
+}
+.hero h1 span {
+  color: var(--primaryColor);
+}
 .hero-img {
-  width: 80%;
+  width: 55%;
+  max-height: 70%;
   margin: auto;
   display: block;
 }
-.hero header h1 {
+.hero h1 {
   text-align: center;
 }
 .section {
   padding: 3rem;
 }
-.section h3,
+.section h1,
 .section p {
   text-align: center;
 }
