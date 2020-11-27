@@ -55,7 +55,7 @@ p {
   width: 70%;
   text-align: center;
 }
-.links {
+a {
   color: white;
   padding: 0.5rem 1.3rem;
   text-decoration: none;
@@ -97,4 +97,17 @@ nav > ul > li {
   width: 80%;
   margin: auto;
   display: block;
+}
+.hero header h1 {
+  text-align: center;
+}
+.section {
+  padding: 3rem;
+}
+.section h3,
+.section p {
+  text-align: center;
+}
+.gray-sec {
+  background-color: #272727;
 }
