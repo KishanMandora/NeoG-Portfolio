@@ -89,3 +89,12 @@ nav > ul > li {
   padding: 2rem;
   margin: 1.5rem;
 }
+/* .hero {
+  height: 100%;
+  width: 100%;
+} */
+.hero-img {
+  width: 80%;
+  margin: auto;
+  display: block;
+}
