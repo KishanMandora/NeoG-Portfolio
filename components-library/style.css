@@ -111,3 +111,17 @@ nav > ul > li {
 .gray-sec {
   background-color: #272727;
 }
+footer {
+  margin-top: 2rem;
+  padding: 3rem 2rem;
+  text-align: center;
+  background-color: var(--navColor);
+}
+footer > ul {
+  list-style-type: none;
+}
+footer > ul > li {
+  display: inline;
+  padding: 1rem 2rem;
+  margin: 0 2rem;
+}
