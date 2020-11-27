@@ -113,10 +113,12 @@ nav > ul > li {
 }
 .section {
   padding: 3rem;
+  border-radius: 12px;
 }
 .section h1,
 .section p {
   text-align: center;
+  margin: 2rem;
 }
 .gray-sec {
   background-color: #272727;
@@ -125,13 +127,18 @@ footer {
   margin-top: 2rem;
   padding: 3rem 2rem;
   text-align: center;
+  border-radius: 10px 10px 0 0;
   background-color: var(--navColor);
 }
 footer > ul {
   list-style-type: none;
+  margin: 1rem 0 0 0;
 }
 footer > ul > li {
   display: inline;
   padding: 1rem 2rem;
   margin: 0 2rem;
+}
+span {
+  color: var(--primaryColor);
 }
